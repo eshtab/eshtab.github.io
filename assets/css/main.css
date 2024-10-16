@@ -89,16 +89,18 @@ input, select, textarea {
 
 	body {
 		font-size: 13.5pt;
-		font-family: sans-serif;
+		
+		font-family: Arial, sans-serif;
 		background-color: #d3d3d3;
-		font-family: 'Ubuntu Condensed', sans-serif;
 		color: #878e83;
 		letter-spacing: -1px;
 	}
 
 	h1, h2, h3, h4 {
+		font-family: 'Courier New', monospace;
 		color: #007897;
 		font-weight: normal;
+		
 	}
 
 	h1 {
@@ -1600,29 +1602,27 @@ input, select, textarea {
 	#banner {
 		position: relative;
 		width: 100%;
-		padding: 6em 0;
 		margin: 1.5% 1.5% 0 1.5%;
 		border-radius: 10px;
+		padding: 50px;
 		background: #fff;
 		text-align: center;
 		box-shadow: inset 0 0 0 20px #fff;
 		color: black;
+		height: 350px;
 	}
 		#banner img {
 			font-size: 3.3em;
-			
 			text-align: center;
 			letter-spacing: -2px;
-			margin: 0 0 0 50px;
 			float:left;
 		}
 
 		#banner h2 {
 			font-size: 3.3em;
-			
+			margin: 0 0 0 50px;
 			text-align: center;
 			letter-spacing: -2px;
-			margin: 0;
 			text-transform:uppercase
 		}
 
@@ -1630,20 +1630,30 @@ input, select, textarea {
 			display: block;
 			left: 0;
 			font-size: 1.6em;
-			
 			letter-spacing: -1px;
 			text-transform: lowercase;
 			opacity: 0.8;
+		}
+		#banner li {
+		}
+		#banner ul {
+			list-style-type:disc;
+			display: inline-block;
+			text-align:left;
+			width:70%;
+			hieght:50%;
 		}
 		
 		#banner #social-link-group-tight {
 			
 			width: 100%;
-			margin: 0 0 0 480px;
+			margin-left:50%;
 			text-align:center;
 			
 		}
-
+		#banner a {		
+			padding:5px;;
+		}
 /* Main */
 
 	#main {
@@ -2056,34 +2066,54 @@ input, select, textarea {
 
  /* Style the tab */
 .tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
   text-align:center;
-  width:25%;
-  margin-left:40%;
+  width:50%;
+  margin-left:25%;
   
 }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  background-color: inherit;
-  border: none;
-  outline: none;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
   cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size:24px;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
 }
 
 /* Style the tab content */
@@ -2092,17 +2122,13 @@ input, select, textarea {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  
 } 
-
-.tabcontent {
-  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+.tabcontent h2{
+	text-transform:uppercase
 }
 
-/* Go from zero to full opacity */
-@keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
+
 
 hr.solid {
   border-top: 3px solid #bbb;
@@ -2128,4 +2154,15 @@ hr.solid {
 .container {
   padding: 2px 16px;
 }
+
+
+
+
+
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+
 
