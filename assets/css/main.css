@@ -1545,20 +1545,90 @@ input, select, textarea {
 		font-family:garet;
 		font-size:40px;
 		text-transform:uppercase;
-		width:95%;
+		width:100%;
 		text-align:center;
-		margin-left:50px;
 		
 	}
 	#header a {
 		color: black;
-		margin:20px;
+		margin:12px;
+		
 	}
+	
+	#header-research {
+		background-color: #cfc4b9;
+		color: black;
+		display:inline-block;
+		font-family:garet;
+		font-size:40px;
+		text-transform:uppercase;
+		width:100%;
+		text-align:center;
+		
+	}
+	#header-research a {
+		color: black;
+		margin:12px;
+		
+	}
+	#header-news {
+		background-color: #d2ddf1;
+		color: black;
+		display:inline-block;
+		font-family:garet;
+		font-size:40px;
+		text-transform:uppercase;
+		width:100%;
+		text-align:center;
+		
+	}
+	#header-news a {
+		color: black;
+		margin:12px;
+		
+	}
+	
+	
+	#news-body{
+		background-color: #d2ddf1;
+		margin-left:20%;
+		margin-right:20%;
+	}
+	
+	#news-body h2{
+		color:#765d53;
+		font-family:garet;
+		text-transform:uppercase;
+	}
+	#news-body h3{
+		color:black;
+		font-family:garet;
+		text-transform:uppercase;
+	}
+	#news-body p{
+		color:black;
+		font-family:Atkinson Hyperlegible;
+	}
+	
+	#news-main{
+		background-color: #d2ddf1;
+	}
+	
+	
 	#research {
 		float:left;
+		font-weight:bold;
+		border: 3px solid black;
+		border-radius:5px;
+		text-decoration: none;
 	}
 	#news {
+		
 		float:right;
+		font-weight:bold;
+		border: 3px solid black;
+		border-radius:5px;
+		text-decoration: none;
 	}
 	#header img {
 		display:inline-block;
@@ -1629,7 +1699,7 @@ figure a {
 /* Main */
 
 	#main {
-		background-color: #636363;
+		background-color: #cfc4b9;
 		padding: 5px 0;
 		width:100%;
 		
@@ -2052,12 +2122,11 @@ figure a {
 .tab button {
   align-items: center;
   appearance: none;
-  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
   border: 0;
   border-radius: 6px;
-  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
   box-sizing: border-box;
   color: #fff;
+  background-color:#324b7c;
   cursor: pointer;
   display: inline-flex;
   font-family: "JetBrains Mono",monospace;
@@ -2088,8 +2157,9 @@ figure a {
 
 /* Create an active/current tablink class */
 .tab button.active {
-  box-shadow: #3c4fe0 0 3px 7px inset;
+  box-shadow: #828282 0 3px 7px inset;
   transform: translateY(2px);
+  background-color:#828282;
 }
 
 /* Style the tab content */
@@ -2098,16 +2168,46 @@ figure a {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  background-color: #cfc4b9;
+  width:80%;
+  margin-left:10%;
+  margin-right:10%;
+  height:800px;
   
 } 
 .tabcontent h2{
-	text-transform:uppercase
+	text-transform:uppercase;
+	font-family:garet;
+	color:black;
+	
+}
+.tabcontent a{
+	text-transform:uppercase;
+	font-family:garet;
+	color:white;
+	
+}
+#authors{
+	font-family:garet;
+	color:black;
+}
+#description{
+	font-family:Atkinson Hyperlegible;
+	color:black;
+}
+.CardDescription{
+	background-color:#d19b9b;
+	font-family:garet;
+	width:250px;
+	text-align:center;
+	font-size:18px;
+	padding:20px;
 }
 
 
 
 hr.solid {
-  border-top: 3px solid #bbb;
+  border-top: none;
 }
 .talkDiv {
 	display: inline;
@@ -2135,7 +2235,9 @@ hr.solid {
 
 
 
-
+#tablinks{
+	
+}
 
 
 .button-29:focus {
