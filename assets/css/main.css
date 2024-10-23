@@ -1595,15 +1595,18 @@ input, select, textarea {
 		margin-right:20%;
 	}
 	
-	#news-body h2{
+	#news-body h3{
 		color:#765d53;
 		font-family:garet;
 		text-transform:uppercase;
 	}
-	#news-body h3{
+	#news-body h4{
 		color:black;
 		font-family:garet;
 		text-transform:uppercase;
+	}
+	#news-body div{
+		margin-bottom:30px;
 	}
 	#news-body p{
 		color:black;
@@ -1621,6 +1624,8 @@ input, select, textarea {
 		border: 3px solid black;
 		border-radius:5px;
 		text-decoration: none;
+		font-size:32px;
+		margin-left:25%;
 	}
 	#news {
 		
@@ -1629,6 +1634,7 @@ input, select, textarea {
 		border: 3px solid black;
 		border-radius:5px;
 		text-decoration: none;
+		font-size:32px;
 	}
 	#header img {
 		display:inline-block;
@@ -2166,43 +2172,85 @@ figure a {
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
   background-color: #cfc4b9;
   width:80%;
   margin-left:10%;
   margin-right:10%;
-  height:800px;
   
 } 
-.tabcontent h2{
+.tabcontent p{
 	text-transform:uppercase;
-	font-family:garet;
+	font-family:railway;
 	color:black;
+	font-size:16px;
 	
 }
 .tabcontent a{
 	text-transform:uppercase;
 	font-family:garet;
 	color:white;
+	font-size:14px;
 	
 }
 #authors{
 	font-family:garet;
-	color:black;
+	color:#765d53;
+	font-size:14px;
+	display:inline-block;
+}
+#year {
+	color:#324b7c;
+	font-family:garet;
+	font-size:14px;
+	margin-right:10px;
+	display:inline-block;
+}
+
+#paperContent{
+	margin-bottom:20px;
+}
+#paperContent p{
+	margin-bottom:0px;
+}
+#research-page {
+	height:100%;
+	background-color: #cfc4b9;
+}
+#news-page {
+	height:100%;
+	background-color: #d2ddf1;
+}
+
+#paperContent div{
+	font-size:14px;
+}
+
+#main-research {
+	background-color: #cfc4b9;
 }
 #description{
 	font-family:Atkinson Hyperlegible;
 	color:black;
 }
+#Workshops{
+	background-color: #cfc4b9;
+}
 .CardDescription{
 	background-color:#d19b9b;
 	font-family:garet;
-	width:250px;
 	text-align:center;
 	font-size:18px;
-	padding:20px;
+	padding:10px;
 }
+.CardDescription p {
+	background-color:#d19b9b;
+	font-family:Atkinson Hyperlegible;
+	text-align:center;
+	font-size:18px;
+	padding:10px;
+}
+
+
 
 
 
@@ -2210,7 +2258,20 @@ hr.solid {
   border-top: none;
 }
 .talkDiv {
-	display: inline;
+	width: 100%; 
+	overflow: hidden;
+	display: inline-block;
+	
+	margin-left:20%;
+}
+.talkDiv div {
+	margin-left: 420px;
+	width:50%;
+	vertical-align:center;
+	
+}
+.talkDiv iframe {
+	width: 400px; float: left;
 }
 
 .card {
@@ -2218,7 +2279,10 @@ hr.solid {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
-  width:20%;
+  width:30%;
+  display:inline-block;
+  margin:20px;
+  
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -2230,7 +2294,6 @@ hr.solid {
 .container {
   padding: 2px 16px;
   margin:5px hidden;
-  width:70%;
 }
 
 

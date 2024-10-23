@@ -10,6 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href='https://fonts.googleapis.com/css?family=Atkinson Hyperlegible' rel='stylesheet'>
+		<link href="https://fonts.cdnfonts.com/css/garet" rel="stylesheet">
+		<link href="https://fonts.cdnfonts.com/css/railway" rel="stylesheet">
 		<script>
 		// Get the element with id="defaultOpen" and click on it
 		window.onload = (event) => {
@@ -18,8 +21,8 @@
 		
 		</script>
 	</head>
-	<body>
-		<div id="page-wrapper">
+	<body style = "height:100%;">
+		<div id="research-page">
 
 	
 			<!-- Header -->
@@ -33,7 +36,7 @@
 
 
 			<!-- Main -->
-				<div id="main">
+				<div id="main-research">
 					<div class="container">
 						<div class="tab">
 						  <button class="tablinks" onclick="openCity(event, 'Papers')" id="defaultOpen" >Papers</button>
@@ -45,13 +48,12 @@
 						<!-- Tab content -->
 						<div id="Papers" class="tabcontent">
 						</br>
-							<div>
-								<h2>The State of Data Curation at NeurIPS: An Assessment 
+							<div id ="paperContent">
+								<p>The State of Data Curation at NeurIPS: An Assessment 
 								of Dataset Development Practices in the Datasets and 
-								Benchmarks Track. </h2> <!-- paper 1 -->
+								Benchmarks Track. </p> <!-- paper 1 -->
 								<div >
-									<div >2024</div>
-									<div >Bhardwaj, E., Gujral, H., Wu, S., 
+									<div id = "year"  >2024 </div> <div id="authors"> Bhardwaj, E., Gujral, H., Wu, S., 
 									Zogheib, C., Maharaj, T., &amp; Becker, C. </div>
 								</div>
 								<div>In Advances in Neural Information Processing Systems Datasets and Benchmarks Track (NeurIPS D&amp;B)</div>
@@ -61,113 +63,109 @@
 								<a href="#" >[talk]</a>
 							</div>
 							
-							<div>
-								<h2>Limits at a Distance: Design Directions to Address Psychological 
-								Distance in Policy Decisions Affecting Planetary Boundaries.</h2> <!-- paper 2 -->
-								<div id="authors" >
-									<div >2024</div>
-									<div >Bhardwaj, E., Qiao, H., & Becker, C.</div>
+							<div id ="paperContent" >
+								<p>Limits at a Distance: Design Directions to Address Psychological 
+								Distance in Policy Decisions Affecting Planetary Boundaries.</p> <!-- paper 2 -->
+								<div  >
+									<div id = "year"  >2024  </div> <div id="authors" > Bhardwaj, E., Qiao, H., & Becker, C.</div>
 								</div>
 								<div id="description">In Proceedings of the 2024 Workshop on Computing within Limits. </div>
 								<a href="https://computingwithinlimits.org/2024/papers/limits2024-bhardwaj-psychological-distance.pdf" >[pdf]</a>
 								<a href="https://www.youtube.com/watch?v=emIIKWG12YM&ab_channel=EshtaBhardwaj" >[talk]</a>
 							</div>
 							
-							<div>
-								<h2>Machine learning data practices through a data curation lens: An evaluation framework</h2> <!-- paper 3 -->
-								<div id="authors" >
-									<div >2024</div>
-									<div >Bhardwaj, E., Gujral, H., Wu, S., Zogheib, C., Maharaj, T., & Becker, C. </div>
-								</div>
+							<div id ="paperContent">
+								<p>Machine learning data practices through a data curation lens: An evaluation framework</p> <!-- paper 3 -->
+									<div id = "year" >2024 </div> <div id="authors" > Bhardwaj, E., Gujral, H., Wu, S., Zogheib, C., Maharaj, T., & Becker, C. </div>
 								<div id="description">In The 2024 ACM Conference on Fairness, Accountability, and Transparency (FAccT)</div>
 								<a href="https://doi.org/10.1145/3630106.3658955" >[pdf]</a>
 								<a href="https://arxiv.org/abs/2405.02703" >[arxiv]</a>
 								<a href="https://www.youtube.com/watch?v=C5VwJBE31JY&embeds_referring_euri=https%3A%2F%2Fjustsustainabilitydesign.org%2F&source_ve_path=Mjg2NjY" >[talk]</a>
 							</div>
 							
-							<div>
-								<h2>Pathways to urban sustainability: Design perspectives on a data curation and visualization platform</h2> <!-- paper 4 -->
-								<div id="authors" >
-									<div >2023</div>
-									<div >Bhardwaj, E.*, Qiao, H.*, & Becker, C. </div>
+							<div id ="paperContent" >
+								<p>Pathways to urban sustainability: Design perspectives on a data curation and visualization platform</p> <!-- paper 4 -->
+								<div  >
+									<div id = "year" >2023</div>
+									<div id="authors" >Bhardwaj, E.*, Qiao, H.*, & Becker, C. </div>
 								</div>
 								<div id="description">. In Proceedings of the 2023 Workshop on Computing within Limits.</div>
 								<a href="https://doi.org/10.21428/bf6fb269.541455de" >[pdf]</a>
 							</div>
 							
-							<div>
-								<h2>Is the climate getting WARMer? A framework and tool for climate data comparison.</h2> <!-- paper 5 -->
-								<div id="authors" >
-									<div >2023</div>
-									<div >Bhardwaj, E., & Khaiter, P. </div>
+							<div id ="paperContent" >
+								<p>Is the climate getting WARMer? A framework and tool for climate data comparison.</p> <!-- paper 5 -->
+								<div >
+									<div id = "year" >2023</div>
+									<div id="authors" >Bhardwaj, E., & Khaiter, P. </div>
 								</div>
 								<div id="description">Published in The Journal of Environmental Modelling & Software</div>
 								<a href="https://doi.org/10.1016/j.envsoft.2023.105879" >[pdf]</a>
 							</div>
 							
-							<div>
-								<h2>What data analytics can or cannot do for climate change studies: An inventory of interactive visual tools</h2> <!-- paper 6 -->
-								<div id="authors" >
-									<div >2023</div>
-									<div >Bhardwaj, E., & Khaiter, P.</div>
+							<div id ="paperContent" >
+								<p>What data analytics can or cannot do for climate change studies: An inventory of interactive visual tools</p> <!-- paper 6 -->
+								<div >
+									<div id = "year" >2023</div>
+									<div id="authors" >Bhardwaj, E., & Khaiter, P.</div>
 								</div>
 								<div id="description">Published in the Journal of Ecological Informatics</div>
 								<a href="https://doi.org/10.1016/j.ecoinf.2022.101918" >[pdf]</a>
 							</div>
 							
-							<div>
-								<h2>Supporting Responsible Machine Learning by Improving Data Curation</h2> <!-- paper 7 -->
-								<div  id="authors" >
-									<div >2024</div>
-									<div >Bhardwaj, E. & Becker, C.</div>
+							<div id ="paperContent">
+								<p>Supporting Responsible Machine Learning by Improving Data Curation</p> <!-- paper 7 -->
+								<div  >
+									<div  id = "year" >2024</div>
+									<div id="authors" >Bhardwaj, E. & Becker, C.</div>
 								</div>
 								<div id="description">Abstract submission and poster presentation at the 19th Women in Machine Learning (WiML) Workshop at NeurIPS</div>
 								<a href="#" >[poster]</a>
 							</div>
 							
-							<div>
-								<h2>Pathways to urban sustainability: Design perspectives on a Toronto-based data curation and visualization platform</h2> <!-- paper 7 -->
-								<div id="authors" >
-									<div >2024</div>
-									<div >Bhardwaj, E. & Qiao, H. </div>
+							<div id ="paperContent" >
+								<p>Pathways to urban sustainability: Design perspectives on a Toronto-based data curation and visualization platform</p> <!-- paper 7 -->
+								<div >
+									<div id = "year">2024</div>
+									<div id="authors" >Bhardwaj, E. & Qiao, H. </div>
 								</div>
 								<div id="description" >Poster presentation at the Beatrice and Arthur Minden Symposium on the Environment</div>
 								<a href="#" >[poster]</a>
 							</div>
 							
-							<div>
-								<h2>Data Practices in Decision-Making for Environmental Sustainability</h2> <!-- paper 8 -->
-								<div id="authors" >
-									<div >2023</div>
-									<div >Bhardwaj, E.</div>
+							<div id ="paperContent" >
+								<p>Data Practices in Decision-Making for Environmental Sustainability</p> <!-- paper 8 -->
+								<div >
+									<div  id = "year" >2023</div>
+									<div id="authors" >Bhardwaj, E.</div>
 								</div>
 								<div id="description" >Abstract submission to the Computer-Supported Cooperative Work (CSCW) workshop on Data-Enabled Sustainability</div>
 							</div>
 							
-							<div>
-								<h2>Data Curation for Community Empowerment in Machine Learning Research</h2> <!-- paper 9 -->
-								<div  id="authors" >
-									<div >2023</div>
-									<div >Bhardwaj, E.</div>
+							<div id ="paperContent" >
+								<p>Data Curation for Community Empowerment in Machine Learning Research</p> <!-- paper 9 -->
+								<div >
+									<div id = "year" >2023</div>
+									<div  id="authors" >Bhardwaj, E.</div>
 								</div>
 								<div id="description" >Abstract submission to the Computer-Supported Cooperative Work (CSCW) workshop on Data-Enabled Sustainability</div>
 							</div>
 							
-							<div>
-								<h2>Visualization tools for climate data analytics</h2> <!-- paper 10 -->
-								<div  id="authors" >
-									<div >2022</div>
-									<div >Bhardwaj, E. & Khaiter, P.</div>
+							<div id ="paperContent" > 
+								<p>Visualization tools for climate data analytics</p> <!-- paper 10 -->
+								<div >
+									<div id = "year" >2022</div>
+									<div id="authors" >Bhardwaj, E. & Khaiter, P.</div>
 								</div>
 								<div id="description" >Abstract submission to the 2022 International Congress on Environmental Modelling and Software and Science Based Decision Making</div>
 								<a href="#" >[talk]</a>
 							</div>
 							
-							<div>
-								<h2>Data Analytics Approach to Climate Change Studies</h2> <!-- paper 11 -->
-								<div  id="authors" >
-									<div >2021</div>
-									<div >Bhardwaj, E. & Khaiter, P.</div>
+							<div id ="paperContent" >
+								<p>Data Analytics Approach to Climate Change Studies</p> <!-- paper 11 -->
+								<div >
+									<div id = "year">2021</div>
+									<div id="authors" >Bhardwaj, E. & Khaiter, P.</div>
 								</div>
 								<div id="description" >Abstract submission and oral presentation to the 2021 International Congress on Modelling and Simulation</div>
 								<a href="#" >[talk]</a>
@@ -180,19 +178,19 @@
 							</br>
 							<div class="talkDiv">
 								<iframe width="400" height="250" src="https://www.youtube.com/embed/emIIKWG12YM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-								<div id="description" style="float:right;width:60%;">
+								<div id="description" >
 									Our paper, discussed in this talk,  lays out how future research on the impacts of alternative design approaches on psychological distance can make data used for policy decisions more tangible and visceral. It was accepted at the Tenth Workshop on Computing within Limits (LIMITS 2024) .
 								</div>
 							</div>
 							<div class="talkDiv">
 								<iframe width="400" height="250" src="https://www.youtube.com/embed/C5VwJBE31JY"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>							
-								<div id="description"  style="float:right;width:60%;">
+								<div id="description"  >
 									This talk presents our FAccT 2024 paper in which we explored how the dataset development process within ML research can be made more transparent and accountable by applying a data curation lens. 
 								</div>
 							</div>
 							<div class="talkDiv">
 								<iframe width="400" height="250" src="https://youtu.be/HItMUjtMhvo?si=j1uIDS7E84AXQH6m" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>							
-								<div id="description" style="float:right;width:60%;">
+								<div id="description" >
 									I was granted a competitive travel award to attend the Research Data Alliance 20th Plenary Meeting in 2023. As part of this, I participated in an interview for early career researchers in data management.
 								</div>
 							</div>
@@ -206,13 +204,38 @@
 							</div> 
 						</div>
 						
-						<div id="Other" class="tabcontent">
+						<div id="Other" class="tabcontent" >
 						</br>
 						   <div class="card">
-							  <img  width="250" height="250" src="images/UOFT.png" alt="Avatar" >
+							  <img  width="100%" height="100%" src="images/tco_logo.png" alt="Avatar" >
 							  <div class="CardDescription">
-								<h4><b>University of Toronto</b></h4>
-								<p>PHD STUDENT</p>
+								<p>Affiliate</p>
+								<h4><b>Toronto Climate Observatory</b></h4>
+								<p>SEPT 2023 - CURRENT</p>
+							  </div>
+							</div> 
+							<div class="card">
+							  <img  width="100%" height="100%" src="images/jsd_logo.png" alt="Avatar" >
+							  <div class="CardDescription">
+								<p>Lab member</p>
+								<h4><b>Just Sustainability Lab</b></h4>
+								<p>SEPT 2022 - CURRENT</p>
+							  </div>
+							</div> 
+							<div class="card">
+							  <img  width="100%" height="100%" src="images/dci_logo.png" alt="Avatar" >
+							  <div class="CardDescription">
+								<p>Junior Fellow</p>
+								<h4><b>Digital Curation Institute</b></h4>
+								<p>SEPT 2022 - May 2023</p>
+							  </div>
+							</div> 
+							<div class="card">
+							  <img  width="100%" height="100%" src="images/rda_logo.png" alt="Avatar" >
+							  <div class="CardDescription">
+								<p>Member</p>
+								<h4><b>Research Data Alliance</b></h4>
+								<p>SEPT 2022 - May 2023</p>
 							  </div>
 							</div> 
 						</div>
