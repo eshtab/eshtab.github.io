@@ -971,10 +971,32 @@ hr.solid {
 	#banner-wrapper h2 {
 		color:#3e3534;
 		font-family: garet;
-		text-transform:uppercase;
-		font-size:32px;
+		text-transform: capitalize;
+		font-size:85px;
+		width:81%;
 	}
-	
+	#banner-wrapper h3{
+		color:#3e3534;
+		font-family: garet;
+
+	}
+	#banner-wrapper p {
+		text-align:left;
+		font-size:28px;
+		line-height:28px;
+	}
+	#uoft{
+		color:#3e3534;
+		font-size:32px;
+		font-family:garet;
+	}
+	#phd{
+		color:#3e3534;
+		font-size:32px;
+		font-family:garet;
+		text-align:center;
+		width:75%;
+	}
 
 	
 	figure {
