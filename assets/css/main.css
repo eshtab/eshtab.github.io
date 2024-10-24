@@ -287,17 +287,17 @@ input, select, textarea {
 
 	#header {
 		background-color: #d19b9b;
-		color: black;
+		color:#3e3534;
 		display:inline-block;
 		font-family:garet;
 		font-size:40px;
 		text-transform:uppercase;
-		width:50%;
-		margin-left:25%;
+		width:70%;
+		margin-left:15%;
 		
 	}
 	#header a {
-		color: black;
+		color:#3e3534;
 		
 		
 	}
@@ -308,7 +308,7 @@ input, select, textarea {
 	
 	#header-research {
 		background-color: #cfc4b9;
-		color: black;
+		color:#3e3534;
 		display:inline-block;
 		font-family:garet;
 		font-size:40px;
@@ -319,7 +319,7 @@ input, select, textarea {
 		
 	}
 	#header-research a {
-		color: black;
+		color:#3e3534;
 		
 	}
 	#header-research img {
@@ -328,7 +328,7 @@ input, select, textarea {
 	}
 	#header-news {
 		background-color: #d2ddf1;
-		color: black;
+		color:#3e3534;
 		display:inline-block;
 		font-family:garet;
 		font-size:40px;
@@ -338,7 +338,7 @@ input, select, textarea {
 		
 	}
 	#header-news a {
-		color: black;
+		color:#3e3534;
 		
 		
 	}
@@ -350,8 +350,8 @@ input, select, textarea {
 	
 	#news-body{
 		background-color: #d2ddf1;
-		margin-left:20%;
-		margin-right:20%;
+		
+		
 	}
 	
 	#news-body h3{
@@ -378,6 +378,8 @@ input, select, textarea {
 	
 	#news-main{
 		background-color: #d2ddf1;
+		margin-left:25%;
+		width:50%;
 	}
 	
 	
@@ -447,7 +449,7 @@ input, select, textarea {
 		text-align: center;
 		
 		
-		border: 2px solid black;
+		border: 2px solid #765d53;
 		
 	}
 	#banner-wrapper span {
@@ -463,10 +465,30 @@ input, select, textarea {
 		
 	}
 	#banner-wrapper h2 {
-		color:black;
+		color:#3e3534;
 		font-family: garet;
-		text-transform:uppercase;
+		text-transform: capitalize;
 		font-size:85px;
+	}
+	#banner-wrapper h3{
+		color:#3e3534;
+		font-family: garet;
+
+	}
+	#banner-wrapper p {
+		text-align:left;
+		font-size:28px;
+		line-height:28px;
+	}
+	#uoft{
+		color:#3e3534;
+		font-size:32px;
+		font-family:garet;
+	}
+	#phd{
+		color:#3e3534;
+		font-size:32px;
+		font-family:garet;
 	}
 	#social-link-group-tight {
 		margin-bottom:40px;
@@ -632,7 +654,10 @@ figure a {
 #paperContent div{
 	font-size:14px;
 }
-
+#news-body {
+	height:100%;
+	background-color: #d2ddf1;
+}
 #main-research {
 	background-color: #cfc4b9;
 }
@@ -747,6 +772,28 @@ hr.solid {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  MOBILE CSS HERE */
 @media (max-width: 1000px) {
 
@@ -775,13 +822,12 @@ hr.solid {
 	#header-research {
 		background-color: #cfc4b9;
 		color: black;
-		display:inline-block;
-		font-family:garet;
-		font-size:40px;
-		text-transform:uppercase;
-		width:50%;
-		margin-left:25%;
-		text-align:center;
+	display:inline-block;
+	font-family:garet;
+	font-size:10px;
+	text-transform:uppercase;
+	width:100%;
+	margin-left:0%;
 		
 		
 	}
@@ -792,13 +838,18 @@ hr.solid {
 	#header-news {
 		background-color: #d2ddf1;
 		color: black;
-		display:inline-block;
-		font-family:garet;
-		font-size:40px;
-		text-transform:uppercase;
-		width:100%;
-		text-align:center;
+	display:inline-block;
+	font-family:garet;
+	font-size:10px;
+	text-transform:uppercase;
+	width:100%;
+	margin-left:0%;
+	margin-bottom:0%;
 		
+	}
+	#header-news img {
+		 width:75px; 
+		 height:75px;
 	}
 	#header-news a {
 		color: black;
@@ -809,14 +860,16 @@ hr.solid {
 	
 	#news-body{
 		background-color: #d2ddf1;
-		margin-left:20%;
-		margin-right:20%;
+		margin-left:1%;
+		margin-right:1%;
+		margin-top
 	}
 	
 	#news-body h3{
 		color:#765d53;
 		font-family:garet;
 		text-transform:uppercase;
+		line-height:16px;
 	}
 	#news-body h4{
 		color:black;
@@ -824,7 +877,7 @@ hr.solid {
 		text-transform:uppercase;
 	}
 	#news-body div{
-		margin-bottom:30px;
+		margin-bottom:50px;
 		
 	}
 	#news-body p{
@@ -834,6 +887,7 @@ hr.solid {
 	
 	#news-main{
 		background-color: #d2ddf1;
+		height:100%;
 	}
 	
 	
@@ -869,11 +923,7 @@ hr.solid {
 		background-color: #d19b9b;
 		color:black;
 	}
-	#page-wrapper {
-		background-color: #d19b9b;
-		color:black;
-		height:100%;
-	}
+	
 	#news:hover {
   transform: translateY(-2px);
 	}
@@ -882,12 +932,20 @@ hr.solid {
 	}
 	
 	
+	
+
+	
+	
 	#banner-wrapper {
 		background-color: #d19b9b;
 		padding: 5px;
 		display:inline-block;
+		height:100%;
 		margin: 1.5%;
 		
+		
+		width: 97%;
+		padding: 3%;
 		text-align: center;
 		
 		
@@ -895,16 +953,19 @@ hr.solid {
 		
 	}
 	#banner-wrapper span {
-		color:black;
+		color:#3e3534;
 		font-family: Atkinson Hyperlegible;
 		font-size:14px;
-		text-align:center;
+		padding-left:0px;
+		padding-right:0px;
 		width:100%;
-		padding:10px;
+		margin-top:0px;
+		text-align:center;
+		display:inline-block;
 		
 	}
 	#banner-wrapper h2 {
-		color:black;
+		color:#3e3534;
 		font-family: garet;
 		text-transform:uppercase;
 		font-size:32px;
@@ -927,15 +988,262 @@ hr.solid {
 		margin:10px;
 	}
 	/* Main */
+		
+			#main {
+		background-color: #cfc4b9;
+		padding: 5px 0;
+		width:100%;
+		
+	}
 
-		#main {
-			background-color: #cfc4b9;
-			padding: 5px 0;
-			width:100%;
-			
+/* Footer */
+
+	#footer-wrapper {
+		padding: 4em 0;
+	}
+
+/* Copyright */
+
+	#copyright {
+		text-align: center;
+		color: #A6A88F;
+		border-top: solid 1px #ced0b7;
+		padding: 3em 0 0 0;
+		margin: 3em 0 0 0;
+	}
+
+		#copyright a {
+			color: #A6A88F;
 		}
 
+/
+
+
+	
+	
+
+ /* Style the tab */
+#tab {
+  width:80%;
+  padding:500px;
+  display:block;
 }
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  align-items: center;
+  appearance: none;
+  border: 0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: #fff;
+  background-color:#324b7c;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  box-shadow: #828282 0 3px 7px inset;
+  transform: translateY(2px);
+  background-color:#828282;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  background-color: #cfc4b9;
+  width:50%;
+  margin-left:25%;
+  margin-right:25%;
+  
+  
+} 
+.tabcontent p{
+	text-transform:uppercase;
+	font-family:railway;
+	color:black;
+	font-size:16px;
+	line-height:18px;
+	
+}
+.tabcontent a{
+	text-transform:uppercase;
+	font-family:garet;
+	color:white;
+	font-size:14px;
+	
+}
+#authors{
+	font-family:garet;
+	color:#765d53;
+	font-size:14px;
+	display:inline-block;
+}
+#year {
+	color:#324b7c;
+	font-family:garet;
+	font-size:14px;
+	margin-right:10px;
+	display:inline-block;
+}
+
+#paperContent{
+	margin-bottom:20px;
+}
+#paperContent p{
+	margin-bottom:0px;
+}
+#research-page {
+	height:100%;
+	background-color: #cfc4b9;
+}
+#news-page {
+	height:100%;
+	background-color: #d2ddf1;
+}
+#news-body {
+	height:100%;
+	background-color: #d2ddf1;
+}
+#paperContent div{
+	font-size:14px;
+}
+
+#main-research {
+	background-color: #cfc4b9;
+}
+#description{
+	font-family:Atkinson Hyperlegible;
+	color:black;
+	
+}
+
+#videodescription {
+	font-family:Atkinson Hyperlegible;
+	color:black;
+	margin-top:50px;
+	font-size:16px;
+}
+#Workshops{
+	background-color: #cfc4b9;
+}
+.CardDescription{
+	background-color:#d19b9b;
+	font-family:garet;
+	text-align:center;
+	font-size:18px;
+	padding:10px;
+}
+.CardDescription p {
+	background-color:#d19b9b;
+	font-family:Atkinson Hyperlegible;
+	text-align:center;
+	font-size:18px;
+	padding:10px;
+}
+
+
+
+
+hr.solid {
+  border-top: none;
+}
+.talkDiv {
+	width: 100%; 
+	overflow: hidden;
+	display: inline-block;
+}
+.talkDiv div {
+	margin-left: 420px;
+	width:50%;
+	vertical-align:center;
+	
+}
+.talkDiv iframe {
+	width: 400px; float: left;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width:30%;
+  display:inline-block;
+  margin:1%;
+  height:150px;
+}
+.card img {
+	width:100%;
+	height:100%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  margin:5px hidden;
+}
+
+
+
+#tablinks{
+	
+}
+
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
