@@ -441,10 +441,10 @@ input, select, textarea {
 		padding: 5px;
 		display:inline-block;
 		height:100%;
-		margin: 1.5%;
+		margin-left: 20%;
 		
 		position: relative;
-		width: 97%;
+		width: 60%;
 		padding: 3%;
 		text-align: center;
 		
@@ -458,7 +458,7 @@ input, select, textarea {
 		font-size:18px;
 		padding-left:0px;
 		
-		width:65%;
+		width:55%;
 		margin-top:0px;
 		text-align:center;
 		display:inline-block;
@@ -468,8 +468,8 @@ input, select, textarea {
 		color:#3e3534;
 		font-family: garet;
 		text-transform: capitalize;
-		font-size:85px;
-		width:81%;
+		font-size:30px;
+		width:87%;
 	}
 	#banner-wrapper h3{
 		color:#3e3534;
@@ -478,40 +478,40 @@ input, select, textarea {
 	}
 	#banner-wrapper p {
 		text-align:left;
-		font-size:28px;
-		line-height:28px;
+		font-size:20px;
+		line-height:20px;
 	}
 	#uoft{
 		color:#3e3534;
-		font-size:32px;
+		font-size:20px;
 		font-family:garet;
 	}
 	#phd{
 		color:#3e3534;
-		font-size:32px;
+		font-size:20px;
 		font-family:garet;
 		text-align:center;
-		width:75%;
+		width:105%;
 	}
 	#social-link-group-tight {
-		margin-bottom:40px;
+		margin-bottom:20px;
 		display:inline-block;
 	}
 
 	
 	figure {
     display: inline-block;
-    margin: 20px;
+    margin: 1%;
 	float:left;
 	
 	}
 figure figcaption {
-    font-size:24px;
+    font-size:20px;
     text-align: center;
 	font-family:garet;
 }
 figure a {
-	margin:20px;
+	margin:15px;
 	text-decoration:none;
 }
 /* Main */
