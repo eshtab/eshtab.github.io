@@ -453,11 +453,11 @@ input, select, textarea {
 		
 	}
 	#banner-wrapper span {
-		color:black;
+		color:#3e3534;
 		font-family: Atkinson Hyperlegible;
 		font-size:18px;
 		padding-left:0px;
-		
+		max-height:40%;
 		max-width:60%;
 		text-align:center;
 		display:inline-block;
@@ -957,21 +957,18 @@ hr.solid {
 	#banner-wrapper span {
 		color:#3e3534;
 		font-family: Atkinson Hyperlegible;
-		font-size:14px;
+		font-size:18px;
 		padding-left:0px;
-		padding-right:0px;
-		width:100%;
-		margin-top:0px;
+		max-height:40%;
+		max-width:100%;
 		text-align:center;
 		display:inline-block;
-		
 	}
 	#banner-wrapper h2 {
 		color:#3e3534;
 		font-family: garet;
 		text-transform: capitalize;
-		font-size:85px;
-		width:81%;
+		font-size:30px;
 	}
 	#banner-wrapper h3{
 		color:#3e3534;
@@ -980,20 +977,18 @@ hr.solid {
 	}
 	#banner-wrapper p {
 		text-align:left;
-		font-size:28px;
-		line-height:28px;
+		font-size:16px;
+		line-height:16px;
 	}
 	#uoft{
 		color:#3e3534;
-		font-size:32px;
+		font-size:20px;
 		font-family:garet;
 	}
 	#phd{
 		color:#3e3534;
-		font-size:32px;
+		font-size:20px;
 		font-family:garet;
-		text-align:center;
-		width:75%;
 	}
 
 	
