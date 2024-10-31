@@ -40,4 +40,22 @@ function openCity(evt, cityName) {
   // Show the current tab, and add an "active" class to the button that opened the tab
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
-} 
+}
+
+const queryString = window.location.search;
+console.log(queryString);
+const urlParams = new URLSearchParams(queryString);
+const posterName = urlParams.get('posterName')
+console.log(posterName);
+
+if(posterName)
+{
+	switch(posterName) {
+		case 'WIML' :
+			document.getElementById('WIML').style.display= 'block' ;
+			break;
+		case 'NEURIPS' :
+			document.getElementById('NEURIPS').style.display= 'block' ;
+			break;
+	}
+}
