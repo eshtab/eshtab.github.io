@@ -58,4 +58,33 @@ if(posterName)
 			document.getElementById('NEURIPS').style.display= 'block' ;
 			break;
 	}
+	
+String.prototype.ucFirst = function()
+{
+    return this.charAt(0).toUpperCase() + this.substr(1);
+};
+
+$(document).ready(function () {
+  var lowerWords = [
+      'For', 'To'
+  ];
+  
+  $('.uc-first').each(function () {
+    var words = $(this).text().split(' ');
+      pattern = /([^a-z0-9]*)(\w+)([^\w]*)/i
+    
+    $.each(words, function (i, value) {
+      mathches = pattern.exec(value);
+      if (lowerWords.indexOf(mathches[2]) == -1) {
+        words[i] = mathches[1]+mathches[2].ucFirst()+mathches[3];
+      }
+    });
+    
+    $(this).text(words.join(' '));
+  })
+})
 }
+
+
+
+

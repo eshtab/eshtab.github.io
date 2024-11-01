@@ -950,9 +950,9 @@ hr.solid {
 		display:inline-block;
 	}
 	#tabbuttonsContainer button{
-		width:20%;
-		position: relative;
+		width:30%;
 		display:inline-block;
+		font-size:14px;
 	}
 	
 	#research {
@@ -1308,6 +1308,43 @@ hr.solid {
 
 
 
+#poster-Body{
+		background-color: #cfc4b9;
+		color:#765d53;
+		height:100%;
+	}
+	#poster-main {
+		background-color: #cfc4b9;
+		color:#765d53;
+		height:100%;
+	}
+	.poster-Container {
+		border:5px #d19b9b solid;
+		color:#765d53;
+		margin-left:10%;
+		margin-right:10%;
+		margin-top:5%;
+		display:none;
+		padding:5px;
+		height:95%;
+	}
+	.poster-Container span {
+		font-family: garet;
+		color:black;
+		font-size:22px;
+		font-weight:normal;
+		line-height:20px;
+	}
+	.poster-Container p {
+		margin-left:5%;
+		color:black;
+		font-family: Atkinson Hyperlegible;
+		font-size:22px;
+	}
+	#headerLine{
+		border: 3px black solid;
+		
+	}
 
 
 
