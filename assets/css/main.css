@@ -446,8 +446,8 @@ input, select, textarea {
 	.poster-Container {
 		border:5px #d19b9b solid;
 		color:#765d53;
-		margin-left:30%;
-		margin-right:30%;
+		margin-left:10%;
+		margin-right:10%;
 		margin-top:5%;
 		display:none;
 		padding:5px;
@@ -456,11 +456,13 @@ input, select, textarea {
 		font-family: garet;
 		color:black;
 		text-transform:capitalize;
+		font-size:32px;
 	}
 	.poster-Container p {
 		margin-left:5%;
 		color:black;
 		font-family: Atkinson Hyperlegible;
+		font-size:28px;
 	}
 	
 /* Banner */
@@ -795,7 +797,12 @@ hr.solid {
 }
 
 
-
+#tabbuttonsContainer{
+	margin-left:35%;
+	max-width:100%;
+	position: relative;
+	display:inline-block;
+}
 
 
 
@@ -933,9 +940,20 @@ hr.solid {
 	
 	#news-main{
 		background-color: #d2ddf1;
-		height:100%;
+		margin-left:10%;
+		width:80%;
 	}
-	
+	#tabbuttonsContainer{
+		margin-left:0%;
+		max-width:100%;
+		position: relative;
+		display:inline-block;
+	}
+	#tabbuttonsContainer button{
+		width:20%;
+		position: relative;
+		display:inline-block;
+	}
 	
 	#research {
 		float:left;
