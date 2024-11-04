@@ -721,18 +721,30 @@ figure a {
 	font-family:garet;
 	text-align:center;
 	font-size:14px;
+	font-weight:normal;
 }
 .CardDescription h4{
 	background-color:#d19b9b;
 	font-family:garet;
 	text-align:center;
 	font-size:16px;
+	font-weight:normal;
 }
 .CardDescription p {
 	background-color:#d19b9b;
 	font-family:Atkinson Hyperlegible;
 	text-align:center;
 	font-size:14px;
+}
+.CardDescription a {
+	background-color:#d19b9b;
+	font-family:Atkinson Hyperlegible;
+	text-align:center;
+	font-size:14px;
+	color:#765d53;
+	border:1px #765d53 solid;
+	border-radius:5px;
+	padding:1px;
 }
 
 
@@ -757,12 +769,13 @@ hr.solid {
 
 #Other {
   margin-left:20%;
+  max-width:100%;
 }
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width:20%;
+  width:30%;
   height:100%;
   margin:1%;
   display:inline-block;
