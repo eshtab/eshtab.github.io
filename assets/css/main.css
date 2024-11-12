@@ -417,6 +417,65 @@ input, select, textarea {
 	}
 	
 	
+	#research-research {
+		float:left;
+		font-weight:bold;
+		display:inline-block;
+		vertical-align:bottom;
+		text-decoration: none;
+		font-size:24px;
+		margin-top:5%;
+		
+	}
+	#research-news {
+		
+		float:right;
+		font-weight:bold;
+		display:inline-block;
+		text-decoration: none;
+		font-size:24px;
+		vertical-align:center;
+		margin-top:5%;
+		
+	}
+	#research-logo {
+		display:inline-block;
+		margin-left:30%;
+		
+	}
+	
+	#news-research {
+		float:left;
+		font-weight:bold;
+		display:inline-block;
+		vertical-align:bottom;
+		text-decoration: none;
+		font-size:24px;
+		margin-top:5%;
+		
+	}
+	#news-news {
+		
+		float:right;
+		font-weight:bold;
+		display:inline-block;
+		text-decoration: none;
+		font-size:24px;
+		vertical-align:center;
+		margin-top:5%;
+		
+	}
+	#news-logo {
+		display:inline-block;
+		margin-left:30%;
+		
+	}
+	
+	#gsIMG{
+		margin-bottom:0px;
+		padding-bottom:0px;
+		height:40px;
+	}
 	
 	/* Style the buttons that are used to open the tab content */
 
@@ -872,7 +931,7 @@ hr.solid {
 	color: black;
 	display:inline-block;
 	font-family:garet;
-	font-size:10px;
+	font-size:8px;
 	text-transform:uppercase;
 	width:100%;
 	margin-left:0%;
@@ -893,7 +952,7 @@ hr.solid {
 		color: black;
 	display:inline-block;
 	font-family:garet;
-	font-size:10px;
+	font-size:8px;
 	text-transform:uppercase;
 	width:100%;
 	margin-left:0%;
@@ -981,6 +1040,7 @@ hr.solid {
 		text-decoration: none;
 		margin-top:12%;
 		margin-left:5%;
+		font-size:18px;
 		
 	}
 	#news {
@@ -992,10 +1052,72 @@ hr.solid {
 		font-size:18px;
 		vertical-align:center;
 		margin-top:12%;
-		margin-right:5%;
+		margin-right:8%;
 		
 	}
 	#logo {
+		display:inline-block;
+		margin-left:5%;
+		
+	}
+	
+	#research-research {
+		float:left;
+		font-weight:bold;
+		display:inline-block;
+		vertical-align:bottom;
+		text-decoration: none;
+		margin-top:15%;
+		margin-left:5%;
+		font-size:18px;
+		
+	}
+	#research-news {
+		
+		float:right;
+		font-weight:bold;
+		display:inline-block;
+		text-decoration: none;
+		font-size:18px;
+		vertical-align:center;
+		margin-top:15%;
+		margin-right:8%;
+		
+	}
+	#research-logo {
+		display:inline-block;
+		margin-left:2%;
+		margin-top:0%;
+		margin-bottom:1%;
+		width: 1%;
+		
+	}
+	
+	
+	#news-research {
+		float:left;
+		font-weight:bold;
+		display:inline-block;
+		vertical-align:bottom;
+		text-decoration: none;
+		margin-top:12%;
+		margin-left:5%;
+		font-size:18px;
+		
+	}
+	#news-news {
+		
+		float:right;
+		font-weight:bold;
+		display:inline-block;
+		text-decoration: none;
+		font-size:18px;
+		vertical-align:center;
+		margin-top:12%;
+		margin-right:8%;
+		
+	}
+	#news-logo {
 		display:inline-block;
 		margin-left:5%;
 		
@@ -1311,25 +1433,30 @@ hr.solid {
 	float: left;
 }
 
-.card {
+html body div#research-page div#main-research div#Other.tabcontent div.card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width:30%;
-  height:30%;
+  height:auto;
   display:inline-block;
-  font-size:10px;
+  font-size:6px;
+  margin-bottom:25px;
 }
-.card img {
-	
+html body div#research-page div#main-research div#Other.tabcontent div.card img {
+   width:100%;
+  height:auto;
 }
 
-.CardDescription{
+html body div#research-page div#main-research div#Other.tabcontent div.card div.CardDescription {
 	background-color:#d19b9b;
 	font-family:garet;
 	text-align:center;
-	font-size:10px;
 	font-weight:normal;
+	width:100%;
+    height:auto;
+	padding:0px;
+	margin:0px;
 }
 .CardDescription h4{
 	background-color:#d19b9b;
@@ -1337,23 +1464,30 @@ hr.solid {
 	text-align:center;
 	font-size:12px;
 	font-weight:normal;
+	padding:0px;
+	margin:0px;
+	margin-bottom:5px;
+	margin-top:5px;
 	
 }
-.CardDescription p {
+html body div#research-page div#main-research div#Other.tabcontent div.card div.CardDescription p {
 	background-color:#d19b9b;
 	font-family:Atkinson Hyperlegible;
 	text-align:center;
 	font-size:10px;
+	padding:0px;
+	margin:0px;
 }
 .CardDescription a {
 	background-color:#d19b9b;
 	font-family:Atkinson Hyperlegible;
 	text-align:center;
-	font-size:10px;
+	font-size:6px;
 	color:#765d53;
 	border:1px #765d53 solid;
 	border-radius:5px;
-	padding:1px;
+	padding:2px;
+	margin:0px;
 }
 
 
