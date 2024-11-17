@@ -963,6 +963,10 @@ hr.solid {
 		color: black;
 		
 	}
+	#header-research img {
+		 width:75px; 
+		 height:75px;
+	}
 	#header-news {
 		background-color: #d2ddf1;
 		color: black;
@@ -1067,29 +1071,26 @@ hr.solid {
 		display:inline-block;
 		vertical-align:bottom;
 		text-decoration: none;
-		margin-top:15%;
+		margin-top:11%;
 		margin-left:5%;
 		font-size:18px;
 		
 	}
 	#research-news {
 		
-		float:right;
+		loat:right;
 		font-weight:bold;
 		display:inline-block;
 		text-decoration: none;
 		font-size:18px;
 		vertical-align:center;
-		margin-top:15%;
+		margin-top:11%;
 		margin-right:8%;
 		
 	}
 	#research-logo {
 		display:inline-block;
-		margin-left:2%;
-		margin-top:0%;
-		margin-bottom:1%;
-		width: 1%;
+		margin-left:5%;
 		
 	}
 	
@@ -1101,7 +1102,7 @@ hr.solid {
 		vertical-align:bottom;
 		text-decoration: none;
 		margin-top:12%;
-		margin-left:5%;
+		margin-left:4%;
 		font-size:18px;
 		
 	}
@@ -1114,7 +1115,7 @@ hr.solid {
 		font-size:18px;
 		vertical-align:center;
 		margin-top:12%;
-		margin-right:8%;
+		margin-right:9%;
 		
 	}
 	#news-logo {
@@ -1303,7 +1304,7 @@ hr.solid {
   height:auto;
   
   
-} 
+}
 #Papers {
 	 width:100%;
   margin-left:0%;
@@ -1425,6 +1426,7 @@ hr.solid {
 	width:100%;
 	text-align:left;
 	margin-bottom:15px;
+	padding-top:5px;
 	
 }
 .talkDiv iframe { 
