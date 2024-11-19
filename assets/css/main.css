@@ -923,7 +923,7 @@ hr.solid {
 
 
 /*  MOBILE CSS HERE */
-@media (max-width: 1000px) {
+@media (max-width: 1000px){
 
 
 	#header {
@@ -950,12 +950,14 @@ hr.solid {
 	#header-research {
 		background-color: #cfc4b9;
 		color: black;
-	display:inline-block;
+	display:flex;
 	font-family:garet;
 	font-size:8px;
 	text-transform:uppercase;
 	width:100%;
 	margin-left:0%;
+	align-items: center;
+  justify-content: center;
 		
 		
 	}
@@ -1089,8 +1091,8 @@ hr.solid {
 		
 	}
 	#research-logo {
-		display:inline-block;
-		margin-left:5%;
+		display:inline;
+		margin-left:10%;
 		
 	}
 	
@@ -1559,6 +1561,14 @@ html body div#research-page div#main-research div#Other.tabcontent div.card div.
 
 
 
+
+@media (max-width: 380px) and (min-width: 350px){
+	#research-logo {
+		display:inline;
+		margin-left:2%;
+		
+	}
+}
 
 
 
