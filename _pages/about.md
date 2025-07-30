@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: "Eshta Bhardwaj"
+title: " "
+excerpt: "Abut me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -15,7 +16,6 @@ I am a 4th year PhD candidate at the Faculty of Information at University of Tor
 
 I am supervised by <a href="https://www.christoph-becker.info/">Prof. Christoph Becker</a> 
 and work with the <a href="https://justsustainabilitydesign.org/">Just Sustainability Design lab</a>. 
-</br></br>
 
 I explore a variety of related questions in this area 
 including: how dataset development processes within machine learning research can be improved with the 
