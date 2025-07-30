@@ -20,8 +20,8 @@ main:
   # - title: "Portfolio"
   #  url: /portfolio/
         
-  - title: "News"
-    url: /news/
+  #- title: "News"
+  #  url: /news/
     
   # - title: "CV"
   #  url: /cv/
