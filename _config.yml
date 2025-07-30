@@ -29,7 +29,7 @@ author:
   location         : "University of Toronto"
   # employer         : # "Red Brick University"
   # uri              : # URL
-  # email            : "none@example.org" 
+  email            : "eshta.bhardwaj@mail.utoronto.ca" 
 
   # Academic websites
   academia         : "https://ischool.utoronto.ca/student-profile/bhardwaj-eshta/"
@@ -80,12 +80,11 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  manuscripts:
+    title: 'Journal Articles'    
+
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -244,13 +243,6 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
   # _teaching
   - scope:
       path: ""
@@ -269,15 +261,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""
