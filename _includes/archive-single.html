@@ -74,6 +74,8 @@
       <p><a href=" {{ post.paperurl }} ">Paper</a></p>
     {% elsif post.slidesurl and post.bibtexurl %}
       <p><a href="{{ post.slidesurl }}">Recorded Talk</a> | <a href="{{ post.bibtexurl }}">Bibtex</a></p>
+	{% elsif post.slidesurl and post.paperurl %}
+      <p><a href="{{ post.slidesurl }}">Recorded Talk</a> | <a href="{{ post.paperurl }}">Paper</a></p>
     {% elsif post.slidesurl %}
       <p><a href="{{ post.slidesurl }}">Recorded Talk</a></p>
     {% elsif post.bibtexurl %}
