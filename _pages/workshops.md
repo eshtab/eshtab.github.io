@@ -4,7 +4,7 @@ title: "Workshops"
 permalink: /worshops/
 author_profile: true
 ---
-
+{% include base_path %}
 ###Peer Reviewed Workshops
 
 ***Organizer***
