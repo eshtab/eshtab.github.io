@@ -20,7 +20,7 @@ including: how dataset development processes within machine learning research ca
 adoption of data curation principles, how to develop tailored curation strategies for ML groups, and how to redefine what progress in ML means 
 by realigning prioritizations and cultural norms surrounding data practices. 
 
-If any of these areas are of interest to you, please get in touch to collaborate. Read more [here](https://eshtab.github.io/aboutme/).
+If any of these areas are of interest to you, please get in touch to collaborate. 
 
 I am supervised by <a href="https://www.christoph-becker.info/">Prof. Christoph Becker</a> 
 and work with the <a href="https://justsustainabilitydesign.org/">Just Sustainability Design lab</a>. 
