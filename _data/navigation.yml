@@ -33,7 +33,7 @@ main:
   #  url: /cv/
     
   - title: "CV"
-    url: /cv/
+    url: "https://eshtab.github.io/files/PersonalWebsite_CV.pdf"
     
   # - title: "Guide"
   #  url: /markdown/
