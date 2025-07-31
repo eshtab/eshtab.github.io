@@ -1,11 +1,10 @@
 ---
 layout: archive
-title: "Workshops"
+title: "Peer Reviewed Workshops"
 permalink: /workshops/
 author_profile: true
 ---
 {% include base_path %}
-###Peer Reviewed Workshops
 
 ***Organizer***
 1. **Bhardwaj, E.** & Becker, C. (2025). Leveraging humour, satire, and art to engage with the
