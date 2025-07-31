@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-Find my CV [here](eshtab.github.io/files/PersonalWebsite_CV.pdf).
+Find my CV [here](https://eshtab.github.io/files/PersonalWebsite_CV.pdf).
