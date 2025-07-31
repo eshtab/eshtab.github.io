@@ -8,16 +8,14 @@ author_profile: true
 
 {% include base_path %}
 
-About Me
-======
 
 **My doctoral research examines data practices in machine learning**, particularly the processes by which data is collected, processed, managed and designed for its usage in ML models. 
 I claim that by examining these practices as data curation, ML research can benefit from more effective dataset development that supports transparent, fair, and accountable ML practices and outcomes. 
 
-ML research has surfaced concerns regarding biased results[^1]<sup>-</sup>[^5], the obfuscation of crowdwork and labour that enables AI[^6]<sup>-</sup>[^9], 
-a lack of accountability and transparency in how models are developed and deployed as well as their outcomes[^10]<sup>-</sup>[^14], and the environmental costs[^15]<sup>-</sup>[^17]. 
+ML research has surfaced concerns regarding biased results[^1]<sup>,</sup>[^2]<sup>,</sup>[^3]<sup>,</sup>[^4]<sup>,</sup>[^5], the obfuscation of crowdwork and labour that enables AI[^6]<sup>,</sup>[^7]<sup>,</sup>[^8]<sup>,</sup>[^9], 
+a lack of accountability and transparency in how models are developed and deployed as well as their outcomes[^10]<sup>,</sup>[^11]<sup>,</sup>[^12]<sup>,</sup>[^13]<sup>,</sup>[^14], and the environmental costs[^15]<sup>,</sup>[^16]<sup>,</sup>[^17]. 
 Many of these **widely recognized challenges of ML systems can be traced back to how data becomes AI**. Studies call for ethical data curation[^18] and methods 
-from archival studies as these fields have long dealt with large amounts of data and concerns of representativeness, ethics, and integrity[^19]<sup>-</sup>[^21]. The field of 
+from archival studies as these fields have long dealt with large amounts of data and concerns of representativeness, ethics, and integrity[^19]<sup>,</sup>[^20]<sup>,</sup>[^21]. The field of 
 data curation is rooted in librarianship and archives and is an information science discipline that can inform how to more actively document and steward datasets in ML research. 
 
 In my research, I apply concepts, principles, and methods from the **field of data curation** to make ML data practices more rigorous, reflexive, and responsible. 
