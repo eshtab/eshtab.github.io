@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Workshops"
-permalink: /worshops/
+permalink: /workshops/
 author_profile: true
 ---
 {% include base_path %}
