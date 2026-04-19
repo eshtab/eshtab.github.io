@@ -16,7 +16,7 @@ Instructor - Faculty of Information, University of Toronto
 Instructor - Data Sciences Institute, University of Toronto
 ------
 
-[Data Visualization](https://datasciences.utoronto.ca/doctoral_ds_certificate/). Data Science Certificate for Doctoral Students.
+- [Data Visualization](https://datasciences.utoronto.ca/doctoral_ds_certificate/). Data Science Certificate for Doctoral Students.
 
 Teaching Assistant - Faculty of Information, University of Toronto
 ------
