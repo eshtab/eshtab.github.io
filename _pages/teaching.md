@@ -8,6 +8,11 @@ author_profile: true
 
 {% include base_path %}
 
+Instructor - Faculty of Information, University of Toronto
+------
+
+- INF1005/6: [Information Workshop: Caring for Datasets - Applying Information Lenses in the Age of AI](https://ischool.utoronto.ca/course/information-workshop-i-summer-2026/).
+
 Instructor - Data Sciences Institute, University of Toronto
 ------
 
