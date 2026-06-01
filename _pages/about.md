@@ -18,7 +18,7 @@ I am a 4th year PhD candidate in the Faculty of Information at University of Tor
 I explore a variety of related questions in this area 
 including: how dataset development processes within machine learning research can be improved with the 
 adoption of data curation principles, how to develop tailored curation strategies for ML groups, and how to redefine what progress in ML means 
-by realigning prioritizations and cultural norms surrounding data practices. Further details about my research interests can be found [here](https://eshtab.github.io/aboutme/).
+by realigning prioritizations and cultural norms surrounding data practices. Further details about my research interests can be found [on my About Me page](https://eshtab.github.io/aboutme/) and [in this feature about my work](https://justsustainabilitydesign.org/research/2026/05/22/caring-for-datasets-eshta-bhardwaj.html).
 
 If any of these areas are of interest to you, please get in touch to collaborate. 
 
