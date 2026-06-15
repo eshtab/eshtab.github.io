@@ -27,3 +27,10 @@ these areas are of interest to you, please get in touch to collaborate.
 I am supervised by <a href="https://www.christoph-becker.info/">Prof. Christoph Becker</a> 
 and work with the <a href="https://justsustainabilitydesign.org/">Just Sustainability Design lab</a>. 
 
+
+{%
+  include alert.html
+  type="info"
+  content=I'll be on the job market in Fall 2026! Please reach out regarding opportunities in the space of dataset development in machine learning.
+%}
+
