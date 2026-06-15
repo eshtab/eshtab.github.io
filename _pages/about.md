@@ -20,7 +20,7 @@ including: how dataset development processes within machine learning research ca
 adoption of data curation principles, how to develop tailored curation strategies for ML groups, and how to redefine what progress in ML means 
 by realigning prioritizations and cultural norms surrounding data practices. 
 
-I'll be on the job market in Fall 2026! Please reach out regarding opportunities in the space of dataset development in machine learning. 
+I'll be on the job market in Fall 2026! Please reach out regarding opportunities in the space of critical data studies and ML data work. 
 {: .notice--info}
 
 Further details about my research interests can be found on my [About Me](https://eshtab.github.io/aboutme/) page 
