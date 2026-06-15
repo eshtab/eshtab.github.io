@@ -31,6 +31,6 @@ and work with the <a href="https://justsustainabilitydesign.org/">Just Sustainab
 {%
   include alert.html
   type="info"
-  content=I'll be on the job market in Fall 2026! Please reach out regarding opportunities in the space of dataset development in machine learning.
+  content=I'll be on the job market in Fall 2026! Please reach out regarding opportunities in the space of dataset development in machine learning. 
 %}
 
