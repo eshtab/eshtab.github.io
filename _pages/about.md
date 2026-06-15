@@ -28,6 +28,6 @@ I am supervised by <a href="https://www.christoph-becker.info/">Prof. Christoph 
 and work with the <a href="https://justsustainabilitydesign.org/">Just Sustainability Design lab</a>. 
 
 
-I'll be on the job market in Fall 2026! Please reach out regarding opportunities in the space of dataset development in machine learning. {: .notice--info}
-
+I'll be on the job market in Fall 2026! Please reach out regarding opportunities in the space of dataset development in machine learning. 
+{: .notice--info}
 
