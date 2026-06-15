@@ -20,6 +20,9 @@ including: how dataset development processes within machine learning research ca
 adoption of data curation principles, how to develop tailored curation strategies for ML groups, and how to redefine what progress in ML means 
 by realigning prioritizations and cultural norms surrounding data practices. 
 
+I'll be on the job market in Fall 2026! Please reach out regarding opportunities in the space of dataset development in machine learning. 
+{: .notice--info}
+
 Further details about my research interests can be found on my [About Me](https://eshtab.github.io/aboutme/) page 
 and [in this feature about my work](https://justsustainabilitydesign.org/research/2026/05/22/caring-for-datasets-eshta-bhardwaj.html). If any of 
 these areas are of interest to you, please get in touch to collaborate. 
@@ -28,6 +31,4 @@ I am supervised by <a href="https://www.christoph-becker.info/">Prof. Christoph 
 and work with the <a href="https://justsustainabilitydesign.org/">Just Sustainability Design lab</a>. 
 
 
-I'll be on the job market in Fall 2026! Please reach out regarding opportunities in the space of dataset development in machine learning. 
-{: .notice--info}
 
