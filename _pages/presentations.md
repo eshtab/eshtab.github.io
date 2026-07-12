@@ -6,17 +6,19 @@ author_profile: true
 ---
 
 ***Presentations that Accompany Full-text Articles in Peer Reviewed Proceedings***
-1. **Bhardwaj, E.**, Gujral, H., Wu, S., Zogheib, C., Maharaj, T., & Becker, C. (2024). The State of
+1. **Bhardwaj, E.**, Zogheib, C., & Becker, C. (2026). Evaluating Structured Documentation as a Tool for Reflexivity in Dataset Development. In The 2026 ACM
+Conference on Fairness, Accountability, and Transparency (**FAccT**), 6903–6955. [Recorded talk](https://youtu.be/tNt_Jw9CqbE?si=IMrrafFRbsE3kN4H)[^1].
+2. **Bhardwaj, E.**, Gujral, H., Wu, S., Zogheib, C., Maharaj, T., & Becker, C. (2024). The State of
 Data Curation at NeurIPS. An Assessment of Dataset Development Practices in the Datasets and
 Benchmarks Track. In Advances in Neural Information Processing Systems Datasets and
-Benchmarks Track (**Spotlight Poster - NeurIPS D&B**). [Recorded talk](https://youtu.be/uLsfFjbERAI?si=lAOJKbDGrhXnv5GR)[^1]. [Poster](https://eshtab.github.io/files/NeurIPS24_poster.pdf).
-2. **Bhardwaj, E.**, Qiao, H., & Becker, C. (2024). Limits at a Distance: Design Directions to Address
+Benchmarks Track (**Spotlight Poster - NeurIPS D&B**). [Recorded talk](https://youtu.be/uLsfFjbERAI?si=lAOJKbDGrhXnv5GR). [Poster](https://eshtab.github.io/files/NeurIPS24_poster.pdf).
+3. **Bhardwaj, E.**, Qiao, H., & Becker, C. (2024). Limits at a Distance: Design Directions to Address
 Psychological Distance in Policy Decisions Affecting Planetary Boundaries. In Proceedings of
 the 2024 Workshop on Computing within Limits (**LIMITS**). [Recorded talk](https://youtu.be/emIIKWG12YM?si=r4qTFzPay-lPNJJb).
-3. **Bhardwaj, E.**, Gujral, H., Wu, S., Zogheib, C., Maharaj, T., & Becker, C. (2024). Machine
+4. **Bhardwaj, E.**, Gujral, H., Wu, S., Zogheib, C., Maharaj, T., & Becker, C. (2024). Machine
 learning data practices through a data curation lens: An evaluation framework. In The 2024 ACM
 Conference on Fairness, Accountability, and Transparency (**FAccT**), 1055-1067. [Recorded talk](https://youtu.be/C5VwJBE31JY?si=lVISOEdFJrsZ_D9-).
-4. **Bhardwaj, E.**\*, Qiao, H.\*, & Becker, C. (2023). Pathways to urban sustainability: Design
+5. **Bhardwaj, E.**\*, Qiao, H.\*, & Becker, C. (2023). Pathways to urban sustainability: Design
 perspectives on a data curation and visualization platform. In Proceedings of the 2023 Workshop
 on Computing within Limits (**LIMITS**). (\*equal contribution)
 
