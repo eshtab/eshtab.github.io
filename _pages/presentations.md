@@ -30,9 +30,9 @@ Toronto-based data curation and visualization platform. Ontario Climate Risk Wor
 (**OCRW**) at the Beatrice and Arthur Minden Symposium on the Environment. [Poster](https://eshtab.github.io/files/OCRW_poster.pdf).
 3. **Bhardwaj, E.** & Khaiter, P. (2022). Visualization tools for climate data analytics. In 2022
 International Congress on Environmental Modelling and Software and Science Based Decision
-Making (**iEMSs**). [Recorded talk](https://youtu.be/VddSKXl2kXg).
+Making (**iEMSs**). 
 4. **Bhardwaj, E.** & Khaiter, P. (2021). Data Analytics Approach to Climate Change Studies. In
-2021 International Congress on Modelling and Simulation (**MODSIM**). [Recorded talk](https://youtu.be/-ke-ZYI01DA).
+2021 International Congress on Modelling and Simulation (**MODSIM**). 
 
 
 
