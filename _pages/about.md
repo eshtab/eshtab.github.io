@@ -11,7 +11,7 @@ redirect_from:
 About Me
 ======
 
-I am a 4th year PhD candidate in the Faculty of Information at University of Toronto studying data practices in machine learning. My research interests include
+I am a 5th year PhD candidate in the Faculty of Information at University of Toronto studying data practices in machine learning. My research interests include
  examining concerns of fairness, accountability, and transparency in ML dataset development, developing methods to promote reflexivity 
  in data work, and designing data curation interventions for ML. 
  
@@ -20,7 +20,7 @@ including: how dataset development processes within machine learning research ca
 adoption of data curation principles, how to develop tailored curation strategies for ML groups, and how to redefine what progress in ML means 
 by realigning prioritizations and cultural norms surrounding data practices. 
 
-I'll be on the job market in Fall 2026! Please reach out regarding opportunities in the space of critical data studies and ML data work. 
+I am on the job market as of Fall 2026! Please reach out regarding opportunities in the space of critical data studies and ML data work. 
 {: .notice--info}
 
 Further details about my research interests can be found on my [About Me](https://eshtab.github.io/aboutme/) page 
